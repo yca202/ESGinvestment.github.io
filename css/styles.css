@@ -1,0 +1,222 @@
+body {
+  font-family: Gotham SSm, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+div#main-text {
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+  margin-top: 40vh;
+  margin-left: 20vw;
+}
+@media screen and (max-width: 751px) {
+  div#main-text {
+    font-size: 1.75em;
+    margin-top: 30vh;
+    margin-left: 0;
+  }
+}
+
+div#main-text p {
+  margin: 10px;
+}
+
+#main-content {
+  margin: 20px;
+  padding: 20px;
+  min-height: calc(100vh - 20px);
+}
+
+#main-footer {
+  background-color: rgba(76, 175, 80, 0.7);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+}
+/* ========================================
+   Header style
+   ======================================== */
+
+/* The header's text */
+div.header ul li a {
+  font-weight: bold; /* font-weight: bold; */
+  font-size: 20px; /* font-size: 12px; */
+  color: white; /* color: var(--text-color); */
+  text-decoration: none; /* disable the dark blue highlight */
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
+
+/* The header */
+div.header {
+  display: flex; /* flexbox layout */
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+/* The header's home button */
+ul.home {
+  margin-right: auto;
+  list-style: none;
+}
+
+/* The header's home button */
+div.header ul li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+/* The header's home button */
+div.header ul a:hover {
+  color: hsl(240deg 14% 79%);
+}
+
+/* The header's menu buttons */
+ul.menu {
+  list-style: none;
+}
+
+/* The header's icon */
+div.header img {
+  padding: 0%;
+  transform: translateY(3px);
+}
+
+/* The header when the width is less than 750px */
+@media screen and (max-width: 751px) {
+  /* The hamburger menu */
+  div.header ul.menu {
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    flex-direction: column;
+    z-index: 10;
+    margin-top: 0;
+    padding-top: 100px;
+  }
+
+  ul {
+    z-index: 11;
+  }
+
+  /* A show animation */
+  div.header ul.menu.show {
+    transform: translateX(0%);
+    margin-top: 0;
+  }
+
+  /* The menu buttons */
+  div.header ul.menu li {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* The menu buttons */
+  div.header ul.menu li a {
+    font-family: var(--header-font-family), sans-serif; /* font-family: "verdana", sans-serif; */
+    font-weight: bold; /* font-weight: bold; */
+    color: white;
+    font-size: 20px;
+  }
+
+  div.header ul li {
+    padding: 0;
+  }
+
+  div.header {
+    justify-content: flex-start;
+  }
+
+  /* The header's home button */
+  .hamburger-menu {
+    margin-left: auto;
+    cursor: pointer;
+    user-select: none;
+    margin: 20px;
+    color: white;
+  }
+}
+
+/* Hide the hamburger menu and the home mobile button when the width is more than 750px */
+@media screen and (min-width: 751px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  .home-mobile {
+    display: none;
+  }
+}
+/* ========================================
+  Explaining ESG section
+  ========================================*/
+
+#esg-explanation {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  min-height: 100vh;
+  padding: 94px 160px;
+}
+
+#esg-explanation .text {
+  width: 70%;
+}
+#esg-explanation .image {
+  width: 30%;
+}
+#esg-explanation .text h3 {
+  font-size: 3em;
+}
+
+#esg-explanation .text p {
+  font-size: 1.19em;
+}
+
+#esg-explanation .image img {
+  width: 100%;
+  opacity: 0.7;
+}
+
+/* Class to show section */
+.show {
+  opacity: 1 !important;
+}
+
+@media screen and (max-width: 751px) {
+  #esg-explanation {
+    display: block;
+    padding: 9px;
+  }
+
+  #esg-explanation .text,
+  #esg-explanation .image {
+    width: 100%;
+  }
+  #esg-explanation .text h3 {
+    font-size: 1.75em;
+  }
+
+  #esg-explanation .text p {
+    font-size: 1em;
+  }
+}
+/* Remainder of your CSS below this line */
