@@ -1,0 +1,44 @@
+.battery {
+  display: grid;
+  place-items: center;
+  font-size: 3em;
+}
+.battery-container {
+  position: relative;
+  background: whitesmoke;
+  width: 100%;
+  height: 100px;
+  padding: 0.02em;
+  border-radius: 15px;
+}
+.battery-bar {
+  position: relative;
+  background: #007bff;
+  border-radius: inherit;
+  width: 0%;
+  height: 100%;
+}
+.battery-bar1 {
+  position: relative;
+  background: red;
+  border-radius: inherit;
+  width: 0%;
+  height: 100%;
+}
+.battery-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  font-size: 0.3em;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+.battery-indicator::after {
+  content: attr(level);
+  color: rgb(0, 123, 255);
+  mix-blend-mode: difference;
+}

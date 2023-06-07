@@ -1,0 +1,152 @@
+<!-- New Section -->
+<section
+  id="policies"
+  style="
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('background/ocean.jpg');
+    background-size: cover;
+    background-position: center;
+  "
+>
+  <div id="heading-text">
+    <div
+      style="
+        text-align: center;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <p style="margin: 0px; /*! height: 250px; */">University's policy</p>
+    </div>
+  </div>
+</section>
+
+<!-- New Section -->
+<section id="esg-explanation" class="hidden">
+  <div id="Introduction"></div>
+  <div class="text">
+    <h3>Commitment in policy to screen out fossil fuel investment</h3>
+    <p>
+      In 2020/2021 report findings consist of a 5% commitment in policy to
+      screen out fossil fuel investments. Whereas, in 2022/2023 report there was
+      seven-time increased commitment noted by the University of Exeter to
+      screen out fossil fuel investments. This is a promising start towards the
+      carbon net zero movement. As well as having a policy that is more reliant
+      on renewable energy sources.
+    </p>
+    <p>
+      <a
+        href="https://peopleandplanet.org/university-league/2022/u941/cardiff-metropolitan-university#eib"
+        >Data</a
+      >
+      suggest the Cardiff Metropolitan University scored full marks for
+      screening out fossil fuel investments, investments in arms companies and
+      border industry companies.
+    </p>
+  </div>
+  <div class="image" style="width: 40%">
+    <img
+      src="art/Exeter_Piazza.jpg"
+      alt="Image description"
+      style="border-radius: 10px"
+    />
+    credit:
+    <a
+      href="https://commons.wikimedia.org/wiki/File:University_of_Exeter_Piazza_(6946750730).jpg"
+      >Source</a
+    >
+  </div>
+</section>
+<section id="esg-explanation">
+  <div class="text">
+    <h3>Ethical banking policy</h3>
+    <p>
+      There seems to be no ethical banking policy mentioned on the University of
+      Exeter's website, as shown in the 2020/2021
+      <a
+        href="https://peopleandplanet.org/university-league/2021/u192/university-of-exeter#section4"
+        >report</a
+      >. Similarly, in the 2022/2023
+      <a
+        href="https://peopleandplanet.org/university-league/2022/u855/university-of-exeter#eib"
+        >report</a
+      >
+      there has been no recorded improvement on the People and Planet website.
+      This potentially shows a lack of awareness to create a policy regarding
+      sustainable finance.
+    </p>
+    <p>
+      Meanwhile, Cardiff Metropolitan university scored full marks for their
+      ethical banking policy, due to the Ethical Investment Policy on their
+      website with appropriate contact details.
+    </p>
+  </div>
+</section>
+
+<!-- New Section -->
+<section id="esg-explanation" class="hidden" style="padding-bottom: 0">
+  <div id="Introduction"></div>
+  <div class="text" style="width: 100%">
+    <h3>Publicity and transparency</h3>
+    <p>
+      The University of Exeter has been recognised to publicise annual
+      investment policies online as proven in both
+      <a
+        href="https://peopleandplanet.org/university-league/2021/u192/university-of-exeter#section4"
+        >reports</a
+      >
+      in 2020/2021 and 2022/2023. This provides students with the ability to
+      actively research how businesses such as Exeter University are planning to
+      keep to the carbon net zero promise.
+    </p>
+  </div>
+</section>
+
+<!-- New Section -->
+<section id="esg-explanation" class="hidden" style="padding-bottom: 0">
+  <div id="Introduction"></div>
+  <div class="text" style="width: 100%">
+    <h3>Commitment in policy to screen out arms companies</h3>
+    <p>
+      According to <a href="">University of Exeter's website</a> there seems to
+      be no policy commiting to screen out investments in arms companies such as
+      United States Air force (USAF), or border industry companies as the
+      university has scored 0/10% and 0/5% respectively according to
+      <a
+        href="https://peopleandplanet.org/university-league/2022/u855/university-of-exeter#eib"
+        >data</a
+      >. It seems that Exeter University is accepting $5,063,796 from UCAF and
+      other partners for an electromagnetic research project as
+      <a
+        href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/L015331/1"
+      >
+        data</a
+      >
+      has shown . This may be alarming and may be the reason for a lower score
+      of 63% in the Ethical investment and banking sector
+      <a
+        href="https://peopleandplanet.org/university-league/2022/u855/university-of-exeter#eib"
+        >reported</a
+      >
+      in 2022/2023. However, this is a higher score than
+      <a
+        href="https://peopleandplanet.org/university-league/2021/u192/university-of-exeter#section4"
+        >the previous year of 28% </a
+      >in ethical investment and banking so the university may be actively
+      proposing action plans to become more financially sustainable to the
+      environment.
+    </p>
+    <p>
+      Cardiff Metropolitan university actively
+      <a href="https://ded1.co/universities/142/">does not accept any grants</a>
+      from armed forces which may lend itself as to why it scored
+      <a
+        href="https://peopleandplanet.org/university-league/2022/u941/cardiff-metropolitan-university"
+        >94%</a
+      >
+      in the ethical investment and banking sector.
+    </p>
+  </div>
+</section>
