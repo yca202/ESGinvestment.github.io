@@ -1,0 +1,72 @@
+.battery {
+  display: grid;
+  place-items: center;
+  font-size: 3em;
+}
+.battery-container {
+  position: relative;
+  background: whitesmoke;
+  width: 100%;
+  aspect-ratio: 15;
+  padding: 0.02em;
+  border-radius: 15px;
+}
+.progress-bar {
+  position: absolute;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.5em;
+}
+.battery-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  font-size: 0.3em;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+.fossil-commitment {
+  background: #007bff;
+  width: 35%;
+}
+.fosil-score {
+  background: red;
+  width: 5%;
+}
+.banking-score {
+  background: rgba(0, 0, 0, 0);
+  width: 5%;
+}
+.banking-commitment {
+  background: #007bff;
+  width: 5%;
+}
+
+.exclude-banking-text {
+  background: rgba(0, 0, 0, 0);
+  width: 5%;
+}
+
+.exclude-banking-commitment {
+  background: #007bff;
+  width: 1%;
+}
+
+.exclude-banking-score {
+  background: red;
+  width: 1%;
+}
+
+.battery-indicator::after {
+  content: attr(level);
+  color: rgb(0, 123, 255);
+  mix-blend-mode: difference;
+}
