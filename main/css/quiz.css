@@ -26,7 +26,7 @@
 
 .start_btn button {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 700;
   color: #007bff;
   padding: 15px 30px;
   outline: none;
@@ -296,7 +296,7 @@ footer button.show {
   background: #fff;
   border-radius: 5px;
   display: flex;
-  /* padding: 25px 30px; */
+  padding: 30px 0px;
   width: 450px;
   align-items: center;
   flex-direction: column;
@@ -374,5 +374,25 @@ footer button.show {
   .result_box {
     width: 100vw;
     height: auto;
+  }
+
+  .slideshow {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
+    background-color: white;
+  }
+
+  .info_box,
+  .quiz_box,
+  .result_box {
+    box-shadow: 0px 0px;
+  }
+
+  div.header {
+    color: black;
   }
 }
