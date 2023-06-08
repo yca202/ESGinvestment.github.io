@@ -62,7 +62,7 @@
     <main id="main-content">
       <div id="main-text">
         <!-- <h2>Welcome to the ESG Investing Academy</h2> -->
-        <p>
+        <p class="hidden">
           We empower students with the ESG insight they need to fuel sustainable
           decisions for a greener future
         </p>
@@ -72,7 +72,7 @@
     <!-- New Section -->
     <section id="esg-video">
       <div class="flex-container">
-        <div class="video-container">
+        <div class="video-container hidden">
           <iframe
             src="https://www.youtube.com/embed/ZGDiKa434og?rel=0"
             title="YouTube video player"
@@ -86,8 +86,8 @@
     </section>
 
     <!-- New Section -->
-    <section id="esg-explanation" class="hidden">
-      <div class="text">
+    <section id="esg-explanation">
+      <div class="text hidden">
         <h3>What is ESG?</h3>
         <p>
           In brief, ESG is a set of criteria used to assess and measure
@@ -111,12 +111,13 @@
           scores to make informed decisions about where to work, shop or invest.
         </p>
       </div>
-      <div class="image">
+      <div class="image hidden">
         <img src="art/whatesg.jpg" alt="Image description" />
       </div>
     </section>
     <section id="esg-explanation">
       <div
+        class="hidden"
         style="
           text-align: center;
           min-height: 400px;
@@ -141,6 +142,7 @@
     </section>
     <section id="esg-explanation">
       <div
+        class="hidden"
         style="
           text-align: center;
           min-height: 400px;
@@ -166,6 +168,7 @@
 
     <section id="esg-explanation">
       <div
+        class="hidden"
         style="
           text-align: center;
           min-height: 400px;
@@ -184,7 +187,7 @@
       >
         <div id="heading-text" style="font-size: 2.5em; margin: 0px">
           <h3>Are you familar with ESG?</h3>
-          <a href="quiz.html"><button>Take a Quiz</button></a>
+          <a href="ESGinfo.html"><button>Take a Quiz</button></a>
         </div>
       </div>
     </section>
@@ -194,5 +197,6 @@
     </footer>
 
     <script src="js/hamburger-menu.js"></script>
+    <script src="js/scroller.js"></script>
   </body>
 </html>
