@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ESG</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
+    <link rel="stylesheet" type="text/css" href="css/percentage.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="slideshow">
+      <img src="background/image1.jpg" class="slide" alt="" />
+      <img src="background/image2.jpg" class="slide" alt="" />
+    </div>
+    <!-- Header section starts -->
+    <div class="header" id="header">
+      <!-- Navigation bar starts -->
+
+      <!-- Menu item left -->
+      <ul class="home">
+        <li name="home"><a href="index.html">Home</a></li>
+      </ul>
+
+      <!-- Menu items right -->
+      <!-- Hamburger-menu will only show if display with a screen width of 750px or less -->
+      <ul>
+        <span class="hamburger-menu">Menu &#9776;</span>
+      </ul>
+
+      <ul class="menu">
+        <!-- Menu items that are always visible -->
+        <li class="universities">
+          <a>University impact<span class="arrow">&#9662;</span></a>
+          <!-- Dropdown menu starts -->
+          <div class="dropdown-menu">
+            <a href="universities.html#Introduction">Introduction</a>
+            <a href="universities.html#policies">Universitys' policy</a>
+            <a href="universities.html#role">Exeter University's Role</a>
+          </div>
+        </li>
+        <li class="Info">
+          <a>ESG info<span class="arrow">&#9662;</span></a>
+          <!-- Dropdown menu starts -->
+          <div class="dropdown-menu">
+            <a href="ESGinfo.html#misconception">Misconceptions</a>
+            <a href="ESGinfo.html#Problems">Problems</a>
+            <a href="ESGinfo.html#addressing-problems">Addressing Problems</a>
+            <a href="ESGinfo.html#benefits">Benefits</a>
+            <a href="ESGinfo.html#rating">ESG ratings</a>
+          </div>
+        </li>
+
+        <li><a href="quiz.html">Quiz</a></li>
+        <li style="padding-right: 50px"><a href="about.html">About us</a></li>
+      </ul>
+
+      <!-- Navigation bar ends -->
+    </div>
+    <!-- Header section ends -->
+    <main id="main-content" style="min-height: calc(50vh - 20px)">
+      <div id="heading-text" style="margin-top: 10vh">
+        <!-- <h2>Welcome to the ESG Investing Academy</h2> -->
+        <p>About Us</p>
+      </div>
+    </main>
+
+    <!-- New Section -->
+    <section id="esg-explanation" class="hidden">
+      <div class="text">
+        <h3>Our Purpose</h3>
+        <p>
+          The growth in investing among students, combined with growing ESG
+          concerns, has presented many with a dilemma that pits their financial
+          interests against their values.
+        </p>
+
+        <p>
+          <i>
+            "Like other students, I actively invest, but I also consider myself
+            an environmentally conscious person, and I am aware that these two
+            things can conflict." -Second year undergraduate student.</i
+          >
+        </p>
+
+        <p>
+          As a solution to this dilemma, we have created a website that equips
+          students with the necessary knowledge about ESG investing.
+        </p>
+
+        <p>
+          However, there is a strong case for optimism. We know there is an
+          abundance of investment opportunities that are not only financially
+          rewarding but also positively influence environmental, social, and
+          corporate governance (ESG) factors. The key lies in gaining the
+          knowledge and skills to identify these opportunities. It is our
+          collective responsibility to stimulate this transformation in
+          investing.
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="art/aboutus.jpg"
+          alt="Image description"
+          style="border-radius: 10px"
+        />
+      </div>
+    </section>
+
+    <section
+      id="misconception"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url('art/misconceptions.jpg');
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <div id="heading-text">
+        <div
+          style="
+            text-align: center;
+            min-height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <p style="margin: 0px; /*! height: 250px; */">
+            We are a group of students who believe that raising awareness and
+            sharing knowledge about ESG investing can empower other students to
+            address sustainability issues.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="scripts.js"></script>
+
+    <footer id="main-footer">
+      <p>&copy; 2023 ESG Investing Academy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/hamburger-menu.js"></script>
+  </body>
+</html>

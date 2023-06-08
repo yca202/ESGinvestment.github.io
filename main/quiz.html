@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ESG</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
+    <link rel="stylesheet" type="text/css" href="css/percentage.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="slideshow">
+      <img src="background/image1.jpg" class="slide" alt="" />
+      <img src="background/image2.jpg" class="slide" alt="" />
+    </div>
+    <!-- Header section starts -->
+    <div class="header" id="header">
+      <!-- Navigation bar starts -->
+
+      <!-- Menu item left -->
+      <ul class="home">
+        <li name="home"><a href="index.html">Home</a></li>
+      </ul>
+
+      <!-- Menu items right -->
+      <!-- Hamburger-menu will only show if display with a screen width of 750px or less -->
+      <ul>
+        <span class="hamburger-menu">Menu &#9776;</span>
+      </ul>
+
+      <ul class="menu">
+        <!-- Menu items that are always visible -->
+        <li class="universities">
+          <a>University impact<span class="arrow">&#9662;</span></a>
+          <!-- Dropdown menu starts -->
+          <div class="dropdown-menu">
+            <a href="universities.html#Introduction">Introduction</a>
+            <a href="universities.html#policies">Universitys' policy</a>
+            <a href="universities.html#role">Exeter University's Role</a>
+          </div>
+        </li>
+        <li class="Info">
+          <a>ESG info<span class="arrow">&#9662;</span></a>
+          <!-- Dropdown menu starts -->
+          <div class="dropdown-menu">
+            <a href="ESGinfo.html#misconception">Misconceptions</a>
+            <a href="ESGinfo.html#Problems">Problems</a>
+            <a href="ESGinfo.html#addressing-problems">Addressing Problems</a>
+            <a href="ESGinfo.html#benefits">Benefits</a>
+            <a href="ESGinfo.html#rating">ESG ratings</a>
+          </div>
+        </li>
+
+        <li><a href="quiz.html">Quiz</a></li>
+        <li style="padding-right: 50px"><a href="about.html">About us</a></li>
+      </ul>
+
+      <!-- Navigation bar ends -->
+    </div>
+    <!-- Header section ends -->
+    <link rel="stylesheet" type="text/css" href="css/quiz.css" />
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+      <div class="info-title"><span>Some Rules of this Quiz</span></div>
+      <div class="info-list">
+        <div class="info">
+          1. You will have only <span>15 seconds</span> per each question.
+        </div>
+        <div class="info">
+          2. Once you select your answer, it can't be undone.
+        </div>
+        <div class="info">
+          3. You can't select any option once time goes off.
+        </div>
+        <div class="info">
+          4. You can't exit from the Quiz while you're playing.
+        </div>
+        <div class="info">
+          5. You'll get points on the basis of your correct answers.
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+      </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+      <header>
+        <div class="title">ESG quiz</div>
+        <div class="timer">
+          <div class="time_left_txt">Time Left</div>
+          <div class="timer_sec">15</div>
+        </div>
+        <div class="time_line"></div>
+      </header>
+      <section>
+        <div class="que_text"></div>
+        <div class="option_list"></div>
+      </section>
+
+      <footer>
+        <div class="total_que"></div>
+        <button class="next_btn">Next Que</button>
+      </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete_text">You've completed the Quiz!</div>
+      <div class="score_text"></div>
+      <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+      </div>
+    </div>
+    <script src="js/hamburger-menu.js"></script>
+    <script src="js/quiz.js"></script>
+  </body>
+</html>
