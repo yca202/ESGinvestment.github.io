@@ -100,7 +100,12 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 // if startQuiz button clicked
 start_btn.onclick = () => {
-  info_box.classList.add("activeInfo"); //show info box
+  quiz_box.classList.add("activeQuiz"); //show quiz box
+  showQuetions(0); //calling showQestions function
+  queCounter(1); //passing 1 parameter to queCounter
+  startTimer(15); //calling startTimer function
+  startTimerLine(0); //calling startTimerLine function
+  // info_box.classList.add("activeInfo"); //show info box
 };
 
 // if exitQuiz button clicked
@@ -181,7 +186,6 @@ next_btn.onclick = () => {
 function showQuetions(index) {
   const que_text = document.querySelector(".que_text");
 
-  console.log("clear");
   // clear the explanation text
   explain_text.innerHTML = "";
 
